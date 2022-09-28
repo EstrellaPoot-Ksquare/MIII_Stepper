@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stepper</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="steps-container">
+        <div class="step-group">
+          <p class="step-circle bg-aqua">
+            <span> 1 </span>
+          </p>
+          <p class="text-aqua">Cabin</p>
+          <hr class="hr-green" />
+        </div>
+        <div class="step-group">
+          <p class="step-circle bg-purple">
+            <span> 2 </span>
+          </p>
+          <p class="text-purple">Meals</p>
+          <hr class="hr-purple" />
+        </div>
+        <div class="step-group">
+          <p class="step-circle bg-white">
+            <span class="text-purple"> 3 </span>
+          </p>
+          <p>Upgrades</p>
+          <hr class="hr-dark" />
+        </div>
+        <div class="step-group">
+          <p class="step-circle bg-white">
+            <span class="text-purple"> 4 </span>
+          </p>
+          <p>Payment</p>
+        </div>
+      </div>
+      <div class="description-container">
+        <p class="desc-title">Meal preferences</p>
+        <p class="desc-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam alias
+          quam, totam iste magnam laboriosam iure perspiciatis
+        </p>
+      </div>
+      <div class="form-container">
+        <form action="">
+          <div class="select-group">
+            <label for="meal">Breakfast</label>
+            <div class="select">
+              <!-- <span class="material-icons"> unfold_more </span> -->
+              <select name="meal" id="meal">
+                <option value="Option 1">Sausage Egg Scramble Bowl</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <div class="select-group">
+            <label for="meal">Drink</label>
+            <select name="meal" id="meal">
+              <option value="Option 1">Coffee</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          <!-- 2nd select -->
+          <div class="select-group">
+            <label for="meal">Lunch</label>
+            <select name="meal" id="meal">
+              <option value="Option 1">Club Sandwich Meal</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          <div class="select-group">
+            <label for="meal">Drink</label>
+            <select name="meal" id="meal">
+              <option value="Option 1">Cranberry Juice</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          <!-- 3rd select -->
+          <div class="select-group">
+            <label for="meal">Dinner</label>
+            <select name="meal" id="meal">
+              <option value="Option 1">Wagyu beef Sliders Meal</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+          <div class="select-group">
+            <label for="meal">Drink</label>
+            <select name="meal" id="meal">
+              <option value="Option 1">Red Wine</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+
+          <div class="check-group">
+            <input type="checkbox" id="dessert" checked />
+            <label for="dessert"
+              ><span class="custom-checkbox material-icons md-18">check</span
+              >I'd like dessert, too!</label
+            >
+          </div>
+
+          <div class="btn-group">
+            <button type="button" id="btn-back" class="bg-white text-dark">
+              Back
+            </button>
+            <button
+              type="button"
+              id="btn-continue"
+              class="text-white bg-purple"
+            >
+              Continue
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
