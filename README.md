@@ -4,4 +4,4 @@
 
 Here is the [live demo](https://estrellapoot-ksquare.github.io/MIII_Stepper/)
 
-![ScreenShot](screenshot.PNG)
+![ScreenShot](screenshot.png)
